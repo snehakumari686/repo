@@ -1,0 +1,17 @@
+#Tab{
+    border: gainsboro solid 1px;
+    border-radius: 10px;
+    padding: 10px 0;
+    display: inline-block;
+    margin-left: 20px;
+}
+#Tab span{
+   
+    border-radius: 10px;
+   padding: 10px 30px;
+ 
+}
+#Tab span:hover{
+    background-image: linear-gradient(to right,rgb(20, 20, 107),rgb(53, 50, 50));
+    color: white;
+}
