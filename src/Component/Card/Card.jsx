@@ -1,12 +1,12 @@
 import './Card.css'
-function Card({children}){
+function Card({children,onSubmit}){
     return(
-        <div id="Card" >
+        <form id="Card" onSubmit={onSubmit} >
             {children}
 
 
 
-        </div>
+        </form>
     )
 }
 export default Card
